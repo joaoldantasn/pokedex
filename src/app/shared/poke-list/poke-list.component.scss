@@ -1,6 +1,6 @@
 @import '../../../config-scss/rem-calc.scss';
-
 :host{
+  .listagem{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -58,11 +58,10 @@
       right: rem-calc(20);
       bottom: rem-calc(20);
 
-      background: url('../../../assets/bg/background-list-pokemons.svg') no-repeat;
-
       img{
         width: rem-calc(60);
       }
     }
+  }
   }
 }
