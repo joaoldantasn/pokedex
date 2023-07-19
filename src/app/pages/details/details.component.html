@@ -4,11 +4,11 @@
 <main>
   <ng-template [ngIf]="isLoading">
     <section class="pokemon__names">
-      <h1>{{pokemon[0].name}}</h1>
-      <h1>{{pokemon[1].names[0].name}}</h1>
+      <h1 class="slideInLeft">{{pokemon[0].name}}</h1>
+      <h1 class="slideInRight">{{pokemon[1].names[0].name}}</h1>
     </section>
     <section class="pokemon__status">
-      <img [src]="pokemon[0].sprites.other.dream_world.front_default" [alt]="pokemon[0].name">
+      <img [src]="pokemon[0].sprites.other.dream_world.front_default" [alt]="pokemon[0].name" class="slideInDown">
 
       <article class="pokemon__status__statistics">
         <section>
